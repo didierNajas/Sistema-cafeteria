@@ -13,7 +13,8 @@ Sistema que simula el procesamiento de pedidos de una cafetería durante un turn
 ## Ejercicio #01 — Variables y tipos de dato
 **Pregunta:** ¿Por qué usas double para el precio y no int? ¿Qué pasaría si declaras el precio como int y le
 asignas 3.50?
-
+Se usa double por que el tipo int es incapaz de almacenar decimalesm, los cuales son esenciales para representar centavos.
+Si intentas asignar 3.50 a un int, el programa normalmentre arrojá un  error de compilación o en su defecto aplicará un truncamiento.
 Didier Alexis
 ---
 
